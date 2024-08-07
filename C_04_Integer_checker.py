@@ -1,7 +1,7 @@
 # Ask user for width and loop until they
 # enter a number that is more than zero
 def int_check(question, low):
-    error = "please enter a number that is more than zero\n"
+    error = f"please enter a number that is more than or equal to {low}\n"
     while True:
 
         try:
@@ -9,7 +9,7 @@ def int_check(question, low):
             response = int(input(question))
 
             # check that the number is more than zero
-            if response > low:
+            if response >= low:
                 return response
             else:
                 print(error)
