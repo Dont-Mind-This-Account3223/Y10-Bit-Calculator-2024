@@ -32,3 +32,4 @@ print()
 for item in range(0, 2):
     height = int_check("Height: ", 1)
     print(height)
+
