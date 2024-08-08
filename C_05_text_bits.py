@@ -18,3 +18,4 @@ def calc_text_bits():
 # Main Routine goes here
 text_ans = calc_text_bits()
 print(text_ans)
+
