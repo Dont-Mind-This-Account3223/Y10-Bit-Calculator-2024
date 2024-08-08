@@ -38,3 +38,5 @@ def image_calc():
 # Main routine goes here
 image_ans = image_calc()
 print(image_ans)
+
+
