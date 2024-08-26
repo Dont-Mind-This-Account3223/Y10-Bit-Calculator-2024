@@ -8,8 +8,14 @@ def instructions():
     statement_generator("instructions", "-")
 
     print('''
-- Please enter a number that is more then zero
-- Enter "xxx" if you want to exit the program
+To use this program enter any of the following:
+
+- "integer" or "int" for an integer
+- "image" , "img" , "picture" or "p" for an image
+- "text" , "txt" or "t" for a text
+- "i" for either an integer or image
+
+You can also enter "xxx" if you want to exit the program
 
     ''')
 
@@ -113,8 +119,10 @@ def calc_text_bits():
 
 # Main routine goes here
 
+statement_generator("Welcome To The Ultimate Bits Calculator", "-")
+
 # Display instructions if requested
-want_instructions = input("Press <enter> to read the instructions"
+want_instructions = input("Press <enter> to read the instructions "
                           "or any key to continue")
 
 if want_instructions == "":
