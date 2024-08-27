@@ -18,7 +18,7 @@ instructions go here.
 # Main routine goes here
 
 # Display instructions if requested
-want_instructions = input("Press <enter> to read the instructions"
+want_instructions = input("Press <enter> to read the instructions "
                           "or any key to continue")
 
 if want_instructions == "":
